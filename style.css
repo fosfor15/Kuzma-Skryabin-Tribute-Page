@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-image: url('https://www.teahub.io/photos/full/22-228623_aditya-sharma-wall-hd.jpg');
+    background-size: cover;
+    font-size: 1.6rem;
+}
+#main {
+    margin: 20px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e6e0e083;
+}
+
+/* Title */
+#title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+#title-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+/* Image */
+#img-div {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#image {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+/* @media screen and (min-width: 800px) {
+    #image {
+        width: 800px;
+    }
+} */
+#img-caption {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Tribute info */
+h2 {
+   text-align: center;
+}
+ul {
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+li {
+    margin: 15px 0;
+    font-size: 1.8rem;
+}
+#tribute-info p {
+    max-width: 680px;
+    margin: 15px auto;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+#tribute-link-text {
+    max-width: 800px;
+    margin: 50px auto 20px auto;
+    font-size: 2rem;
+}
