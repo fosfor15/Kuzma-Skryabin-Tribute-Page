@@ -6,14 +6,17 @@ html {
 
 body {
     background-image: url('https://www.teahub.io/photos/full/22-228623_aditya-sharma-wall-hd.jpg');
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
     font-size: 1.6rem;
 }
 #main {
     margin: 20px 10px;
     padding: 15px;
     border-radius: 10px;
-    background-color: #e6e0e083;
+    background-color: #d1caca83;
 }
 
 /* Title */
@@ -22,10 +25,11 @@ body {
     text-align: center;
     font-size: 4rem;
 }
-#title-intro {
+#intro {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2rem;
     line-height: 1.6;
 }
@@ -38,7 +42,7 @@ body {
 }
 #image {
     max-width: 100%;
-    min-width: 300px;
+    min-width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -49,12 +53,14 @@ body {
 } */
 #img-caption {
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2rem;
 }
 
 /* Tribute info */
 h2 {
-   text-align: center;
+    margin-top: 25px;
+    text-align: center;
 }
 ul {
     max-width: 720px;
@@ -63,11 +69,13 @@ ul {
 }
 li {
     margin: 15px 0;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.8rem;
 }
 #tribute-info p {
     max-width: 680px;
     margin: 15px auto;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.8rem;
     line-height: 1.6;
 }
@@ -75,5 +83,6 @@ li {
 #tribute-link-text {
     max-width: 800px;
     margin: 50px auto 20px auto;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2rem;
 }
