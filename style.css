@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
+/* Root element */
 html {
     font-size: 10px;
 }
 
+/* Main styles */
 body {
-    background-image: url('https://www.teahub.io/photos/full/22-228623_aditya-sharma-wall-hd.jpg');
-    background-position: center;
+    background-image: url('https://cdn.hipwallpaper.com/i/64/5/r2EkPR.jpg');
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,18 +23,34 @@ p, a, li, figcaption {
     font-family: 'PT Serif', serif;
     line-height: 1.6;
 }
-
 #main {
-    margin: 20px 10px;
+    margin: 20px;
     padding: 15px;
     background-color: #d1caca83;
     border-radius: 10px;
+}
+@media screen and (max-width: 460px) {
+    h1, h2 {
+        line-height: 1;
+    }
+    p, a, li, figcaption {
+        line-height: 1.2;
+    }
+    #main {
+        margin: 0;
+        padding: 10px;
+    }
 }
 
 /* Title */
 #title {
     margin-bottom: 10px;    
     font-size: 4.4rem;    
+}
+@media screen and (max-width: 460px) {
+    #title {
+        margin-top: 10px;
+    }
 }
 #intro {
     max-width: 800px;
@@ -44,9 +62,17 @@ p, a, li, figcaption {
 #img-div {
     margin: 40px 0;
 }
+@media screen and (max-width: 460px) {
+    #img-div {
+        margin: 10px 0;
+    }
+}
+figure {
+    margin: 0;
+    padding: 10px;
+}
 #image {
     max-width: 100%;
-    min-width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -66,6 +92,7 @@ h2 {
 ul {
     max-width: 720px;
     margin: 0 auto;
+    padding-left: 25px;
     text-align: left;
 }
 li {
@@ -77,6 +104,24 @@ li {
 #tribute-info p {
     max-width: 680px;
     margin: 15px auto;
+}
+@media screen and (max-width: 460px) {
+    #tribute-info {
+        margin: 10px 0;
+    }
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li {
+        margin: 8px 0;
+    }
+    #tribute-info h2:last-of-type {
+        margin-top: 20px;
+    }
+    #tribute-info p {
+        margin: 10px auto;
+    }
 }
 
 /* Tribute link */
